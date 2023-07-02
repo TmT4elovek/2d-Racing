@@ -36,8 +36,14 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - car
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1817218449
+    locked: 0
+  - name: Car
+    uniqueID: 810501353
     locked: 0
