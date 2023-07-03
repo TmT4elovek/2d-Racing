@@ -44,6 +44,9 @@ TagManager:
   - name: BackGround
     uniqueID: 1817218449
     locked: 0
+  - name: Plant
+    uniqueID: 2520247703
+    locked: 0
   - name: Car
     uniqueID: 810501353
     locked: 0
