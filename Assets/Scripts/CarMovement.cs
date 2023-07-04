@@ -22,7 +22,8 @@ public class CarMovement : MonoBehaviour
 
     void Update()
     {
-        
+        rb.angularVelocity = 0;
+
         float rotation = -Input.GetAxis("Horizontal") * rotationSpeed;
         float acceleration = Input.GetAxis("Vertical") * speed;
 
