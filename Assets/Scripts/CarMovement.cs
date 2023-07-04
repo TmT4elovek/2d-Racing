@@ -26,8 +26,16 @@ public class CarMovement : MonoBehaviour
         float rotation = -Input.GetAxis("Horizontal") * rotationSpeed;
         float acceleration = Input.GetAxis("Vertical") * speed;
 
-        rb.angularVelocity = rotation;
+        
+        
         rb.velocity = transform.up * acceleration;
 
+        
+        // Добавляем условие
+        if (acceleration != 0)
+        {
+            rb.angularVelocity = rotation;
+        }
+            
     }
 }
